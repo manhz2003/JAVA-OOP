@@ -7,6 +7,7 @@ public class main3b {
     public static void main(String[] args) {  
     Scanner sc = new Scanner(System.in);    
 
+    // nhập từ bàn phím bằng cách gán trực tiếp với biến
     System.out.print("nhập vào tên: ");
     String ten = sc.nextLine();
     System.out.print("nhập vào tuổi: ");
