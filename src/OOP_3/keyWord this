@@ -1,0 +1,7 @@
+ĐỊNH NGHĨA TỪ KHÓA THIS
+- Đại diện cho đối tượng hiện thời của một lớp
+- Sử dụng để gọi phương thức khởi tạo khác
+- Sử dụng khi tham số trùng tên với tên thuộc tính
+- Sử dụng để gọi đến các thuộc tính / các phương thức khác
+- Sử dụng như đối số khi gọi phương thức
+- Sử dụng để trả về đối tượng hiện thời trong một phương thức

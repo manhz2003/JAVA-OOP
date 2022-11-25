@@ -1,0 +1,31 @@
+*GIỐNG NHAU
+- Đều có tính trừu tượng: ẩn giấu những thực thi chi tiết chỉ show ra những tính năng tổng quát.
+bên ngoài chứ k biết cụ thể bên trong nó hoạt động như nào.
+
+*KHÁC NHAU
+(abstract class)
+- chỉ có các phương thức abstract, default, static.
+- có thể là biến final hoặc không.
+- có cả static, non-stactic, final, non final.
+- thực thi bằng keyword extends.
+- 1 abstract class có thể extends 1 class cha và có thể implement từ nhiều interface.
+- chỉ đạt mức trừu tượng 1 phần.
+- khả năng truy cập có thể là các thành phần như private, protected.
+
+(interface)
+- có tất cả các loại phương thức khác.
+- các biến final là các biến mặc định.
+- chỉ có các biến static và final.
+- thực thi bằng keyword implements.
+- 1 interface chỉ có thể extends từ các class interface khác.
+- đạt trừu tượng hoàn toàn.
+- khả năng truy cập mặc định là public.
+
+* KHI NÀO SỬ DỤNG ABSTRACT, KHI NÀO SỬ DỤNG INTERFACE
+ Sử dụng abstract nếu:
+    + chia sẻ code giữa các lớp trong quan hệ kế thừa.
+    + muốn lớp này cũng chứa cả các thành phần private, protected.
+Sử dụng interface nếu:
+    + Định nghĩa các chức năng, các giá trị chung cho các lớp không có mối liên hệ với nhau.
+    + Muốn tận dụng lợi ích của đa kế thừa.
+    + Muốn xác định các hành vi nhưng không quan tâm lớp nào sẽ thực thi chúng

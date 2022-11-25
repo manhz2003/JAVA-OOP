@@ -1,0 +1,50 @@
+CHỈ MỤC OOP
+<HƯỚNG ĐỐI TƯỢNG>
+OOP_1  - Lớp và đối tượng
+OOP_2  - Tính đóng gói dữ liệu
+OOP_3  - Phương thức khởi tạo (contructor)
+OOP_4  - Gói (Package)
+OOP_5  - Các thành phần (static)
+OOP_6  - Tính chất kế thứa (extend) (1)
+OOP_7  - Tính chất kế thứa (extend) (2)
+OOP_8  - Nạp chồng phương thức (overloading)
+OOP_9  - Ghi đè phương thức (Override)
+OOP_10 - Phương thức toString(), Phương thức so sánh equals()
+OOP_11 - abstract class
+OOP_12 - interface class
+OOP_13 - arrayList
+OOP_14 - keyword final
+
+<CẤU TRÚC DỮ LIỆU>
+OOP_15 - Xử lý chuỗi, lấy độ dài chuỗi và ký tự trong chuỗi
+OOP_16 - Xử lý chuỗi, các hàm so sánh chuỗi
+OOP_17 - Xử lý chuỗi, các hàm tìm kiếm chuỗi
+OOP_18 - Xử lý chuỗi, cắt, nối, thay thế và chuyển chuỗi thành viết hoa, thường
+OOP_19 - Phương thức so sánh lớn bé, compareTo
+OOP_20 - lớp random
+OOP_21 - Các lớp quản lý thời gian
+OOP_22 - Generic
+OOP_23 - kiểu dữ liệu enum
+
+<LÀM VIỆC VỚI FILE>
+OOP_24 - Tạo tập tin và thư mục
+OOP_25 - Cách lấy thông tin của tập tin và duyệt thư mục 
+
+Nếu sử dụng printf để chỉ rõ vị trí bằng % thì phải nối bằng dấy phẩy thay vì dấu cộng
+ví dụ:
+    String name = "Manh";
+    system.out.printf("ten cua ban la %s !", name); // hợp lệ
+    system.out.printf("ten cua ban la %s !" + name); // không hợp lệ
+    
+%c: Ký tự
+%d: Số thập phân (số nguyên) (cơ số 10)
+%e: Dấu phẩy động theo cấp số nhân
+%f: Dấu phẩy động
+%i: Số nguyên (cơ sở 10)
+%o: Số bát phân (cơ sở 8)
+%s: Chuỗi
+%u: Số thập phân (số nguyên) không dấu
+%x: Số trong hệ thập lục phân (cơ sở 16)
+%t: Định dạng ngày / giờ
+%%: Dấu phần trăm
+\%: Dấu phần trăm

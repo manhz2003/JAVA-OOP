@@ -1,0 +1,33 @@
+<--- 4 TÍNH CHẤT ĐẶC TRƯNG CỦA HƯỚNG ĐỐI TƯỢNG (OOP) --->
+
+* Tính đóng gói (encapsulation)
+    - Các thuộc tính thường để private.
+    - Các phương thức vận hành dựa trên các thuộc tính của lớp để public.
+    - Tính đóng gói được thể hiện thông qua phạm vi truy cập (access modifier).
+    - Các lớp liên quan đến nhau có thể được gom chung lại thành package.
+    - Thuộc tính của lớp nào thì chỉ lớp đó có quyền trực tiếp quản lý, lớp khác hoặc bên.
+      ngoài phạm vi lớp muốn sử dụng, sửa đổi các thuộc tính thì phải thông qua các thành phần public.
+      => ẩn giấu thông tin, dễ dàng kiểm soát.
+
+* Tính kế thừa (Extends)
+    - Cho phép tái sử dụng, tận dụng các lớp đã có để tạo ra lớp mới.
+    - Sử dụng từ khóa extends.
+    - Các lớp được lớp khác kế thừa gọi là lớp cha.
+    - Các lớp mà kế thừa từ lớp cha gọi là lớp con.
+    - java chỉ có tính đơn kế thừa, mỗi lớp con chỉ kế thừa 1 lớp cha duy nhất.
+    - lớp cha có thể có nhiều lớp con, nhưng lớp con chỉ có 1 lớp cha.
+    - Có thể chia sẻ hay mở rộng các đặc tính sẵn có mà không phải tiến hành định nghĩa lại.
+
+* Tính đa hình (polymorphism)
+    - Khi một tác vụ được thực hiện theo nhiều cách khác nhau được gọi là tính đa hình.
+    - Có 2 loại đa hình là run time (thời gian chạy) và compile time (thời gian biên dịch).
+    - runtime: Thể hiện ở việc <Override>.
+    - compile time: thể hiện ở việc <overloading>.
+
+* Tính trừu tượng (abstraction)
+    - Tính trừu tượng là một tiến trình ẩn các chi tiết trình triển khai và chỉ hiển thị tính năng tới người dùng. 
+    - Tính trừu tượng giúp bạn tập trung vào những cốt lõi cần thiết của đối tượng thay vì quan tâm đến cách nó thực hiện.
+    - Trong Java, chúng là sử dụng abstract class và abstract interface để có tính trừu tượng.
+    - Tính trừu tượng cho phép bạn loại bỏ tính chất phức tạp của đối tượng bằng cách chỉ đưa ra các thuộc tính và phương 
+      thức cần thiết của đối tượng trong lập trình.
+
